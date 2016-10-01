@@ -1,0 +1,53 @@
+/*
+ * from-TomWHartung_github_io.css: styles copied from the copy of css/allDevices.css in
+ *   https://github.com/tomwhartung/tomwhartung.github.io
+ */
+/*
+ * For images
+ */
+figure figcaption {
+	text-align: center;
+}
+figure.content-left,
+figure.content-right,
+figure.footnote {
+	display: inline;
+	padding: 0;
+	width: 33%;
+}
+figure.portrait-left,
+figure.portrait-right {
+	display: inline;
+	padding: 0;
+	width: 33%;
+}
+figure.content-left,
+figure.portrait-left,
+figure.footnote {
+	margin: 1em 1em 1em 0;
+}
+figure.content-right,
+figure.portrait-right {
+	margin: 1em 0 1em 1em;
+}
+img.content-left,
+img.content-right,
+img.portrait-left,
+img.portrait-right,
+img.footnote {
+	width: 100%;
+}
+figure.content-left,
+figure.portrait-left,
+figure.footnote,
+img.content-left,
+img.portrait-left,
+img.footnote {
+	float: left;
+}
+figure.content-right,
+figure.portrait-right,
+img.content-right,
+img.portrait-right {
+	float: right;
+}
